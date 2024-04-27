@@ -1,7 +1,6 @@
 <?php
 session_start();
-include ();
-include ();
+
 
 $dbuser = $database_user;
 $dbpass = $database_pass;
