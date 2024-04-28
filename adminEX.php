@@ -37,5 +37,14 @@ else {
 </head>
 <body>
 
+<!-- Navbar -->
+<div role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button"></button>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
