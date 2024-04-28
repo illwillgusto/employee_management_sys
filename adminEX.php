@@ -40,7 +40,7 @@ else {
 <!-- Navbar -->
 <div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
-    <div class="navbar-header">
+    <div class="navbar-header"><a class="navbar-brand" href="home.php">EMS</a>
       <button type="button"></button>
     </div>
     <div class="collapse navbar-collapse navbar-menubuilder">
