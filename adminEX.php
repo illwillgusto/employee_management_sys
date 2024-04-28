@@ -43,6 +43,18 @@ else {
     <div class="navbar-header">
       <button type="button"></button>
     </div>
+    <div class="collapse navbar-collapse navbar-menubuilder">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="checkIN.php">CheckIN</a></li>
+        <li><a href="attendance.php">Attendance</a></li>
+        <li><a href="myProfile.php">MyProfile</a></li>
+        <li><a href="addEmployee.php">AddEmployee</a></li>
+        <li><a href="employeeStatus.php">EmployeeStatus</a></li>
+        <li><a href="leaveManagement.php">Leave Management</a></li>
+        <li><a href="workingHR.php">Working HR</a></li>
+        <li><a href="logout.php">Logout</a></li>
+      </ul>
+    </div>
   </div>
 </div>
 
