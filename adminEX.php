@@ -11,5 +11,8 @@ else {
     $error="Sorry You Cannot View This Page.";
     echo("<script>alert(\"$error\")</script>");
   }
+  else {
+    $e_id = $_SESSION['e_id'];
+  }
 }
 ?>
