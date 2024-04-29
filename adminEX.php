@@ -25,7 +25,23 @@ else {
 
     $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
 
-    
+    $sql = "SELECT * FROM login_info,employee_personal_info,employee_professional_info WHERE login_info.Employee_id = '$e_id'
+    AND employee_personal_info.id = '$e_id' AND employee_professional_info.id = '$e_id'";
+    $data = $dbcon->query($sql);
+    $row = $data->fetch(PDO::FETCH_ASSOC);
+    $name = $row['Name'];
+    $id = $row['id'];
+    $nid = $row['NID'];
+    $department = $row['Department'];
+    $designation = $row['Designation'];
+    $email = $row['Email'];
+    $contact = $row['Phone'];
+    $address = $row['Address'];
+    $gender = $row['Gender'];
+    $blood_group = $row['Blood_group'];
+    $dob = $row['Date_of_Birth'];
+    $jd = $row['Joining_date'];
+    $image = $row['Image'];
 
   }
 }
