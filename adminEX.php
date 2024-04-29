@@ -15,6 +15,18 @@ else {
   }
   else {
     $e_id = $_SESSION['e_id'];
+
+
+
+
+    $dbuser = $database_user;
+    $dbpass = $database_pass;
+    $dbname = $database_name;
+
+    $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
+
+    
+
   }
 }
 ?>
