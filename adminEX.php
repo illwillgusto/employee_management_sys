@@ -25,10 +25,21 @@ else {
 
     $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
 
+    /* retrieval of comprehensive employee information from multiple tables based on a specific
+    employee ID ('$e_id')
+    it pulls data from 3 tables: 'login_info', 'employee_personal_info', & 'employee_professional_info'.
+    Each table will have an 'id' field to correspond to the employee's ID.
+    this will allow for a consistent and complete data fetch */
     $sql = "SELECT * FROM login_info,employee_personal_info,employee_professional_info WHERE login_info.Employee_id = '$e_id'
     AND employee_personal_info.id = '$e_id' AND employee_professional_info.id = '$e_id'";
+
+
     $data = $dbcon->query($sql);
+
+    // PDO (PHP Data Objects), a method for database access that provides a flexible way to access and manage database connections in PHP
     $row = $data->fetch(PDO::FETCH_ASSOC);
+
+    // fetched data is stored in an array '$row'
     $name = $row['Name'];
     $id = $row['id'];
     $nid = $row['NID'];
