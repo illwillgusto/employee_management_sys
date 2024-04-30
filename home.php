@@ -36,6 +36,16 @@ $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+      <a class="navbar-brand" href="#myPage">EMS</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#brand">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li data-toggle="modal" data-target="#myModal">
+          <a href="#login"><span class="glyphicon glyphicon-log-in" ></span>LOGIN</a></li>
+      </ul>
     </div>
   </div>
 </nav>
