@@ -26,8 +26,15 @@
           PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
         ));
 
+        // PDO Connection Attributes 
+        $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $connect->setAttribute(PDO::ATTR_PERSISTENT, true);
+
+        return $connect;
 
 
       }
     }
+
+    $connection_object= new connect();
 ?>
