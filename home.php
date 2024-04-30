@@ -1,5 +1,7 @@
 <?php
 session_start();
+include ('pdo-connection.php');
+include ('database-config.php');
 
 
 $dbuser = $database_user;
