@@ -12,6 +12,22 @@
       public $connect;
 
       //establish a database connection using the PDO (PHP Data Objects)
-      public function connection ($hostname, $database, $username, $password);
+      public function connection ($hostname, $database, $username, $password)
+      {
+        //class properties to provided argument, specifying the server where the database resides
+        $this->hostname=$hostname;
+        $this->database=$database;
+        $this->username=$username;
+        $this->password=$password;
+
+        //PDO Connection:
+        $connect= new PDO("mysql:host=$hostname;dbname=$database", $username, $password, array(
+          POD::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+          PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
+        ));
+
+
+
+      }
     }
 ?>
