@@ -16,7 +16,8 @@ else {
   else {
     $e_id = $_SESSION['e_id'];
 
-
+    include ('pdo-connection.php');
+    include ('database-config.php');
 
 
     $dbuser = $database_user;
