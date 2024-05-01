@@ -57,6 +57,12 @@ $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
 
   <!-- Modal content -->
 
+  <div class="modal-content">
+    <div class="modal-header">
+
+    </div>
+  </div>
+
 
   </div>
 </div>
