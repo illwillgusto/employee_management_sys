@@ -50,5 +50,16 @@ $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
   </div>
 </nav>
 
+<!-- Modal -->
+
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+
+  <!-- Modal content -->
+
+
+  </div>
+</div>
+
 </body>
 </html>
