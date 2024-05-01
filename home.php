@@ -67,7 +67,12 @@ $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
       <h4><span class="fas fa-lock">LOG IN</span></h4>
     </div>
     <div class="modal-body">
-      
+      <form role="form" action="" method="post">
+        <div class="form-group">
+          <label for="username"><span class="fas fa-user"></span> UserName </label>
+          <input type="text" name="loginEmail" class="form-control" id="username" placeholder="Enter Email">
+        </div>
+      </form>
     </div>
   </div>
 
