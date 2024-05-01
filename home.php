@@ -24,6 +24,9 @@ $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
   <!-- Bootstrap compiled JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/8716b95af6.js" crossorigin="anonymous"></script>
+
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -44,7 +47,7 @@ $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
         <li><a href="#brand">About</a></li>
         <li><a href="#contact">Contact</a></li>
         <li data-toggle="modal" data-target="#myModal">
-          <a href="#login"><span class="glyphicon glyphicon-log-in" ></span>LOGIN</a></li>
+          <a href="#login"><span class="fas fa-lock"></span>LOGIN</a></li>
       </ul>
     </div>
   </div>
@@ -61,6 +64,7 @@ $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
     <div class="modal-header">
       <!-- button allows the user a way to dismiss the modal dialog and return to the main content -->
       <button type="button" class="close" data-dismiss="modal"><i class="fas fa-times"></i></button>
+      <h4><span class="fas fa-lock">LOG IN</span></h4>
     </div>
   </div>
 
