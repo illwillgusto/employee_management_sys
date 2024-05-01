@@ -59,7 +59,8 @@ $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
 
   <div class="modal-content">
     <div class="modal-header">
-
+      <!-- button allows the user a way to dismiss the modal dialog and return to the main content -->
+      <button type="button" class="close" data-dismiss="modal"><i class="fas fa-times"></i></button>
     </div>
   </div>
 
