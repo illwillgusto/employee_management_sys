@@ -72,6 +72,13 @@ $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
           <label for="username"><span class="fas fa-user"></span> UserName </label>
           <input type="text" name="loginEmail" class="form-control" id="username" placeholder="Enter Email">
         </div>
+        <div class="form-group">
+          <label for="password"><span class="fas fa-key    "></span> Password </label>
+          <input type="password" name="loginPassword" class="form-control" id="pwd" placeholder="Password">
+        </div>
+        <button type="submit" name="login" class="btn btn-block">LOG IN
+          <span class="fas fa-check"></span>
+        </button>
       </form>
     </div>
   </div>
