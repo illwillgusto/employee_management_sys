@@ -66,6 +66,9 @@ $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
       <button type="button" class="close" data-dismiss="modal"><i class="fas fa-times"></i></button>
       <h4><span class="fas fa-lock">LOG IN</span></h4>
     </div>
+    <div class="modal-body">
+      
+    </div>
   </div>
 
 
