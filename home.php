@@ -85,6 +85,7 @@ $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
       <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
         <span class="fas fa-window-close"></span>Cancel
       </button>
+      <p>Need<a href="#">Help?</a></p>
     </div>
   </div>
 
