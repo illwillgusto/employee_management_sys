@@ -88,8 +88,6 @@ $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
       <p>Need<a href="#">Help?</a></p>
     </div>
   </div>
-
-
   </div>
 </div>
 
