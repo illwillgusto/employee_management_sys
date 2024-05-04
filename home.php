@@ -83,7 +83,7 @@ $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
     </div>
     <div class="modal-footer">
       <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-        
+        <span class="fas fa-window-close"></span>Cancel
       </button>
     </div>
   </div>
