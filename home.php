@@ -110,6 +110,13 @@ if (isset($_POST['login'])) {
   $user_Role = $row['Role'];
   $e_id = $row['Employee_id'];
 
+  if($user_Mail !="" && $user_Pass !="") {
+    $_SESSION['login'] = "TRUE";
+    $_SESSION['user'] = $user_Mail;
+    $_SESSION['e_id'] = $e_id;
+    $_SESSION['user_Role'] = $user_Role;
+  }
+
 
 }
 ?>
