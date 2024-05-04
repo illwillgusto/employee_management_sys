@@ -115,6 +115,12 @@ if (isset($_POST['login'])) {
     $_SESSION['user'] = $user_Mail;
     $_SESSION['e_id'] = $e_id;
     $_SESSION['user_Role'] = $user_Role;
+
+    if ($user_Role == "Admin") {
+      echo("<script>location.href='admin.php'</script>");
+    } else {
+      echo("<script>location.href='employee.php'</script>");
+    }
   }
 
 
