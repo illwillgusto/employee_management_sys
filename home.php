@@ -82,7 +82,9 @@ $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
       </form>
     </div>
     <div class="modal-footer">
-
+      <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+        
+      </button>
     </div>
   </div>
 
