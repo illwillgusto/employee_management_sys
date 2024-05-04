@@ -105,6 +105,12 @@ if (isset($_POST['login'])) {
   $data = $dbcon->query($sql);
   $row = $data->fetch(PDO::FETCH_ASSOC);
 
+  $user_Mail = $row['Email'];
+  $user_Pass = $row['Password'];
+  $user_Role = $row['Role'];
+  $e_id = $row['Employee_id'];
+
+
 }
 ?>
 </body>
