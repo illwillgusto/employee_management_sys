@@ -121,10 +121,14 @@ if (isset($_POST['login'])) {
     } else {
       echo("<script>location.href='employee.php'</script>");
     }
+  } else {
+    $error = "Wrong Username or Password";
+    echo "<script>alert(\"$error\")</script>";
+    echo ("<script>location.href='home.php'</script>");
   }
-
-
 }
 ?>
+
+
 </body>
 </html>
