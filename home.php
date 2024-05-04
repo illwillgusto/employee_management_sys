@@ -91,5 +91,16 @@ $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
   </div>
 </div>
 
+<!-- PHP Code -->
+
+<?php
+
+// check if the 'login' button has been pressed on the form submission, it will retrieve the user's email and password 
+if (isset($_POST['login'])) {
+  $loginmail= $_POST['loginEmail'];
+  $loginpass= md5($_POST['loginPassword']);
+
+}
+?>
 </body>
 </html>
