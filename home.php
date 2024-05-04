@@ -103,6 +103,7 @@ if (isset($_POST['login'])) {
 // query used ti verify if there exists a user record that matches both email and the hashed password
   $sql = " SELECT * FROM login_info WHERE Email='$loginmail' AND Password= '$loginpass' ";
   $data = $dbcon->query($sql);
+  $row = $data->fetch(PDO::FETCH_ASSOC);
 
 }
 ?>
