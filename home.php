@@ -81,6 +81,9 @@ $dbcon = $connection_object->connection('localhost', $dbname, $dbuser, $dbpass);
         </button>
       </form>
     </div>
+    <div class="modal-footer">
+
+    </div>
   </div>
 
 
