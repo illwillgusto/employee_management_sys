@@ -133,9 +133,10 @@ if (isset($_POST['login'])) {
 <!-- Carousel -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
-<ol>
-  <li></li>
-  <li></li>
+<ol class="carousel-indicators">
+  <li data-target="#myCarousel" data-slide="0" class="active"></li>
+  <li data-target="#myCarousel" data-slide="1"></li>
+  <li data-target="#myCarousel" data-slide="2"></li>
 </ol>
 </div>
 
