@@ -129,6 +129,15 @@ if (isset($_POST['login'])) {
 }
 ?>
 
+<!-- Navbar Close -->
+<!-- Carousel -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol>
+  <li></li>
+  <li></li>
+</ol>
+</div>
 
 </body>
 </html>
