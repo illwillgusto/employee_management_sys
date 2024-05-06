@@ -180,6 +180,21 @@ if (isset($_POST['login'])) {
   <div class="hr">
     <hr>
   </div>
+  <br>
+
+  <div id="#" class="row humpty">
+    <div class="col-sm-4">
+      <p class="text-center"></p>
+      <a href="#demo" data-toggle="collapse">
+        <img src="" alt="Random Name" class="img-circle person person1" width="255" height="255">
+      </a>
+      <div id="demo" class="collapse">
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+    </div>
+  </div>
 </div>
 
 
