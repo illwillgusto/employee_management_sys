@@ -172,9 +172,10 @@ if (isset($_POST['login'])) {
 
 <!-- The About Section -->
 <div id="band" class="container text-center">
-  <div class="about"><h3 style="color: #b29600;"></h3>
-    <p style="color: #b29600;"></p>
-    <p></p>
+  <div class="about"><h3 style="color: #b29600;"><b>THE EMS</b></h3>
+    <p style="color: #b29600;">We Believe In Efficiency</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
   </div>
   <div class="hr">
     <hr>
