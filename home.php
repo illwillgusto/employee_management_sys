@@ -140,8 +140,14 @@ if (isset($_POST['login'])) {
 </ol>
 
 <!-- Wrapper Slides -->
-<div>
-  <div></div>
+<div class="carousel-inner" role="listbox">
+  <div class="item-active">
+    <img class="imgL" src="" alt="Image">
+    <div class="carousel-caption car">
+      <h3 style="color:#b29600">We are Specialized In Chicago</h3>
+      <button type="submit" class="button"><span>Know More</span></button>
+    </div>
+  </div>
 </div>
 </div>
 
