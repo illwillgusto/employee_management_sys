@@ -138,6 +138,11 @@ if (isset($_POST['login'])) {
   <li data-target="#myCarousel" data-slide="1"></li>
   <li data-target="#myCarousel" data-slide="2"></li>
 </ol>
+
+<!-- Wrapper Slides -->
+<div>
+  <div></div>
+</div>
 </div>
 
 </body>
