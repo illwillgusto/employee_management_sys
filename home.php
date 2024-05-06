@@ -148,6 +148,14 @@ if (isset($_POST['login'])) {
       <button type="submit" class="button"><span>Know More</span></button>
     </div>
   </div>
+
+  <div class="item">
+    <img class="imgL" src="" alt="Image">
+    <div class="carousel-caption car black carL">
+      <h3 style="color:#b29600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h3>
+    </div>
+  </div>
 </div>
 </div>
 
