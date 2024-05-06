@@ -170,5 +170,17 @@ if (isset($_POST['login'])) {
 </div>
 </div>
 
+<!-- The About Section -->
+<div id="band" class="container text-center">
+  <div class="about"><h3 style="color: #b29600;"></h3>
+    <p style="color: #b29600;"></p>
+    <p></p>
+  </div>
+  <div class="hr">
+    <hr>
+  </div>
+</div>
+
+
 </body>
 </html>
