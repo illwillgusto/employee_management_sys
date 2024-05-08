@@ -184,14 +184,14 @@ if (isset($_POST['login'])) {
 
   <div id="#" class="row humpty">
     <div class="col-sm-4">
-      <p class="text-center"></p>
+      <p class="text-center"><strong>Bruce Wayne</strong></p>
       <a href="#demo" data-toggle="collapse">
         <img src="" alt="Random Name" class="img-circle person person1" width="255" height="255">
       </a>
       <div id="demo" class="collapse">
-        <p></p>
-        <p></p>
-        <p></p>
+        <p>Vice President</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p>Since 1988</p>
       </div>
     </div>
   </div>
