@@ -255,6 +255,10 @@ if (isset($_POST['login'])) {
       </div>
     </div>
   </div>
+  <div class="hr">
+    <hr >
+  </div>
+  <br>
 </div>
 
 
