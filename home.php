@@ -261,6 +261,8 @@ if (isset($_POST['login'])) {
   <br>
 </div>
 
+<!-- END of About Section -->
+
 
 </body>
 </html>
