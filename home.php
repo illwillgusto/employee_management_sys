@@ -200,14 +200,60 @@ if (isset($_POST['login'])) {
       <a href="#demo2" data-toggle="collapse">
         <img src="" alt="Random Name" class="img-circle person person1" width="255" height="255">
       </a>
-      <div id="demo" class="collapse">
+      <div id="demo2" class="collapse">
         <p>CEO</p>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         <p>Since 1988</p>
       </div>
     </div>
 
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Wonder Woman</strong></p>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="" alt="Random Name" class="img-circle person person1" width="255" height="255">
+      </a>
+      <div id="demo3" class="collapse">
+        <p>CTO</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p>Since 1988</p>
+      </div>
+    </div>
 
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Bruce Banner</strong></p>
+      <a href="#demo4" data-toggle="collapse">
+        <img src="" alt="Random Name" class="img-circle person person1" width="255" height="255">
+      </a>
+      <div id="demo4" class="collapse">
+        <p>President</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p>Since 1988</p>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Tony Stark</strong></p>
+      <a href="#demo5" data-toggle="collapse">
+        <img src="" alt="Random Name" class="img-circle person person1" width="255" height="255">
+      </a>
+      <div id="demo5" class="collapse">
+        <p>Operations Manager</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p>Since 1988</p>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Professor X</strong></p>
+      <a href="#demo6" data-toggle="collapse">
+        <img src="" alt="Random Name" class="img-circle person person1" width="255" height="255">
+      </a>
+      <div id="demo6" class="collapse">
+        <p>Founder</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p>Since 1988</p>
+      </div>
+    </div>
   </div>
 </div>
 
