@@ -263,6 +263,21 @@ if (isset($_POST['login'])) {
 
 <!-- END of About Section -->
 
+<!-- Contact Section -->
+<div>
+  <h3></h3>
+  <br>
+  <br>
+
+  <div>
+    <div>
+      <p></p>
+      <p></p>
+      <p></p>
+    </div>
+  </div>
+</div>
+
 
 </body>
 </html>
